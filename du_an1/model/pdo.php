@@ -102,7 +102,7 @@ function pdo_query_value($sql){
         unset($conn);
     }
 }
-// viết func trả về id
+// viết function tra ve id
 function pdo_execute_return_lastInsertId($sql){
     $sql_args = array_slice(func_get_args(), 1);
     try{
